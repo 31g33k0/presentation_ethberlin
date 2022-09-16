@@ -1,0 +1,9 @@
+@startuml
+Donor -> App : transfert fund
+App -> Pool: allocate
+Pool -> App : validate deposit
+App -> IPFS
+IPFS -> cert
+cert -> App
+App -> Donor : transfert NFT
+@enduml
