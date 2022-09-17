@@ -1,4 +1,6 @@
 ## Timeline
 
-![Timeline](./svg/timeline.svg?raw=true)
+![Timeline](./svg/timeline.svg?raw=false)
+
 # presentation_ethberlin
+
