@@ -12,31 +12,30 @@
     string public name;
     string public symbol;
     uint public startingTime;
-      uint public endTime;
+    uint public endTime;
     address[] public receiverAddresses;
     uint public totalSupply;
     mapping(uint => string) public tokenURI;
     address public evaluatorAddress;
+    uint public evalCounterIterator = 0;
+    uint public evalCounterMax = 4;
 
-    constructor(uint _endtime, address _evaluator, uint evalCounterIterator, uint evalCounterMax) ERC1155("") {
+    constructor(uint _endtime, address _evaluator) ERC1155("") {
       name = "Hypercerts";
       symbol = "Hypercerts";
       startingTime = block.timestamp;
       endTime = _endtime;
       evaluatorAddress = _evaluator;
-      evalCounterIterator=;
-      evalCounterMax=;
 
     }
     // evalutor exchanges Hypercert
     function updateCert(uint _id, string memory _uri) private {
-      require evalCounter <
+      require (evalCounterIterator < evalCounterMax);
       require(msg.sender == evaluatorAddress, "you are not the evaluator");
       tokenURI[_id] = _uri;
       emit URI(_uri, _id);
     }
     function mint(address _to, uint _id, uint _amount) internal { //
-      er
       _mint(_to, _id, _amount, "");
       totalSupply += _amount;
     }
@@ -72,4 +71,3 @@
       mint( msg.sender,  _id, msg.value);
     }
   }
-
