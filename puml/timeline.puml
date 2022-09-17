@@ -1,12 +1,15 @@
-@startuml"timeline"
+@startuml "timeline"
 
 'participant IPFS
+!include config.puml
+
+actor Donor
+!theme spacelab
 
 
-participant Donor
 
 Donor -[#red]> App : transfert fund
-App -> Pool: allocate
+App -[#dotted]-> Pool: allocate
 'Pool -> App : validate deposit
 Creator -> App:Submit impact claim information :note: validate input
 App -> Creator : Data valid (mint button active)
