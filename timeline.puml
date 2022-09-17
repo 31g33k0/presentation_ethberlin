@@ -1,9 +1,29 @@
-@startuml
-Donor -> App : transfert fund
+@startuml"timeline"
+
+'participant IPFS
+
+
+participant Donor
+
+Donor -[#red]> App : transfert fund
 App -> Pool: allocate
-Pool -> App : validate deposit
-App -> IPFS
-IPFS -> cert
-cert -> App
-App -> Donor : transfert NFT
+'Pool -> App : validate deposit
+Creator -> App:Submit impact claim information :note: validate input
+App -> Creator : Data valid (mint button active)
+Creator -> App :mint impact claim
+
+
+Pool -> Creator : select and fund impact claim
+Pool -> App:Update impact claim data "funding contribution"
+App -> IPFS : store impact claim data
+IPFS -> App : return CID
+
+Creator -> App: mint impact claim
+App -> Contract : mint "empty HC"
+'Creator -> Pool : return funded adress
+'App -> Creator : Creates Certificate
+'App -> IPFS
+'IPFS -> Contract
+Contract -> App :mint NFT
+App -> Donor : Display NFT
 @enduml
