@@ -1,14 +1,10 @@
   // SPDX-License-Identifier: MIT
-  // hashlips erc1155 template used
 
   pragma solidity ^0.8.0;
 
   import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC1155/ERC1155.sol";
   import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 
-
-
-  // is it smart to do this thing as ERC1155 if we only need 1155 fractional feature or should we "write own standard"?
   contract NFT1155 is ERC1155, Ownable {
 
     string public name;
@@ -21,12 +17,10 @@
     bool public fundingOpen = true;
     bool public fundsWithdrawn = false;
     string[] public pastEvaluations;
-    uint public constant fundingGoal = 10000;
+    uint public constant fundingGoal = 1000 ether;
     uint constant _id = 0;
 
 
-
-    //memory in front of each variable?
     constructor(uint _endtime, address _evaluator, string memory _uri) ERC1155("") {
       name = "Hypercerts";
       symbol = "Hypercerts";
@@ -40,6 +34,7 @@
     // evalutor exchanges Hypercert
     function updateCert(string memory _uri) external {
       require(msg.sender == evaluatorAddress, "you are not the evaluator");
+      require(fundsWithdrawn == true, "evaluation has not started yet, no funds are distributed so far");
       pastEvaluations.push(tokenURI);
       tokenURI = _uri;
       emit URI(_uri, _id);
@@ -90,12 +85,10 @@
       }
     }
 
-    //does it need to get the argument id
     function uri() external view returns (string memory){
       return tokenURI;
     }
 
-    //to-do: give back excess funds,non-reentrant modifier
     function buyCert() external payable {
       require(msg.value > 10, "minimum funding not met, provide at least 10 gwei");
       isFundingOpen();
@@ -105,7 +98,7 @@
       }
       mint(msg.sender, msg.value);
     }
-    //to-do:delete later
+
     function showTime() external view returns (uint){
       return block.timestamp;
     }
