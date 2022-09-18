@@ -53,3 +53,6 @@ In the third phase it is the job of the evaluators to update the cert with valid
 ![image](https://user-images.githubusercontent.com/45817753/190893652-e15b324f-194d-4a8e-a5eb-7bc220e922c7.png)
 
 By measuring how many funds the donor has provided against the other providers he can publicly track how much impact in which field his funds have provided. If he owns 50% of the fund he also owns 50% of the provided impact.
+
+## Timeline
+![Timeline](./svg/timeline.svg?raw=false)
