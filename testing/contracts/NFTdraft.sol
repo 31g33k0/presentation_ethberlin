@@ -9,10 +9,6 @@
 
 
 
-interface IERC20 {
-    function transfer(address _to, uint256 _value) external returns (bool);
-    function balanceOf(address _owner) public view returns (uint balance);
-}
   contract NFT1155 is ERC1155, Ownable {
 
     string public name;
@@ -28,14 +24,15 @@ interface IERC20 {
     bool public fundingOpen = true;
     bool public certMatured = false;
     string[] public pastEvaluations;
-    uint public fundingGoal;
+    uint public fundingGoal=10000;
 
-    IERC20 usdc = IERC20(address(0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557));
+
     constructor(uint _endtime, address _evaluator) ERC1155("") {
       name = "Hypercerts";
       symbol = "Hypercerts";
       startingTime = block.timestamp;
       endTime = _endtime;
+      require(endTime>block.timestamp, "endtime in the past");
       evaluatorAddress = _evaluator;
 
     }
@@ -52,22 +49,24 @@ interface IERC20 {
       _mint(_to, _id, _amount, "");
       totalSupply += _amount;
     }
-    function isFundingOpen() public returns (bool){
+    function isFundingOpen() public{
       if(fundingGoal>totalSupply && block.timestamp < endTime){
           fundingOpen = true;
       }else{
           fundingOpen = false;
       }
     }
-    function receiveMoney() public onlyOwner{
-      usdc.transfer(msg.sender, totalSupply);
-      evaluationStarted = true;
+    function receiveMoney() public onlyOwner payable {
+      payable(msg.sender).transfer(msg.value);
+      fundingOpen = false;
     }
 
     function mintBatch(address _to, uint[] memory _ids, uint[] memory _amounts) external onlyOwner {
       _mintBatch(_to, _ids, _amounts, "");
     }
-
+    function showTime() public view returns (uint){
+      return block.timestamp;
+    }
     function burn(uint _id, uint _amount) external {
       _burn(msg.sender, _id, _amount);
     }
@@ -88,18 +87,18 @@ interface IERC20 {
       return c;
     }
 
-
-    function uri(uint _id) public override view returns (string memory) {
+    //to-do: non-reentrant modifier
+    function uri(uint _id) public override view returns (string memory){
       return tokenURI[_id];
     }
     //to-do: give back excess funds
-    function buycert(uint _id, amount) public payable {
+    function buycert(uint _id) external payable {
       require(msg.value > 10, "minimum funding not met");
       isFundingOpen();
-      if (usdc.balanceOf()>fundingGoal){
-        usdc.transferFrom(address(msg.sender), address(this), tokenInAmount);
+      if ((msg.value + totalSupply) > fundingGoal) {
+          payable(msg.sender).transfer((msg.value +totalSupply) - fundingGoal);
       }
       require(fundingOpen == true, "Funding not open anymore");
-      mint( msg.sender,  _id, msg.value);
+      mint(msg.sender, _id, msg.value);
     }
   }
