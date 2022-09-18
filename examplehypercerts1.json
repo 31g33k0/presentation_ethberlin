@@ -1,0 +1,11 @@
+{
+    "creators": ["ethAddress1", "ethAddress2"],
+    "workers": ["ethAddress2", "ethAddress3"],
+    "pool orchestrator": "ethAddress4",
+    "work_scope": ["India Covid Emergency"],
+    "Creators": [{Doctors for you": [{"vaccines distributed":0, "vaccines given":0, "vaccine hesitancy":"true"},
+        {"Doctors for me": [{"vaccines distributed":0, "vaccines given":0, "vaccine hesitancy":"true"}],
+    "impact_general": [{"vaccines distributed":5, "vaccines given":15, "vaccine hesitancy":true}],
+    "previous Evaluations": [{}],
+    "impact_time": 1640995200
+}
