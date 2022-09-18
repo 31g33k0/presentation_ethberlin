@@ -5,19 +5,16 @@ import { publicProvider } from "wagmi/providers/public";
 
 export const { chains, provider } = configureChains(
   [
-    chain.polygonMumbai,
+    chain.goerli,
     chain.mainnet,
-    chain.rinkeby,
-    chain.optimism,
-    chain.arbitrum,
+    chain.polygonMumbai,
     chain.polygon,
-    chain.localhost,
     chain.hardhat,
   ],
   [alchemyProvider({ alchemyId: process.env.ALCHEMY_ID }), publicProvider()]
 );
 const { connectors } = getDefaultWallets({
-  appName: "Web3 Starter Kit",
+  appName: "HyperCertain",
   chains,
 });
 export const wagmiClient = createClient({

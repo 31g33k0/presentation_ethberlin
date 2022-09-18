@@ -3,8 +3,9 @@ import React, { useEffect } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Greeter from "./components/Greeter";
 import { useToast } from "@chakra-ui/react";
+import FundBox from "./components/fundbox";
+import ImpactBox from "./components/impactbox";
 
 export default function Home() {
   const toast = useToast();
@@ -12,20 +13,22 @@ export default function Home() {
   useEffect(() => {
     toast({
       title: "Connect Wallet",
-      description: "connect to Polygon Mumbai for testing",
+      description: "connect to Görli for testing",
       status: "info",
       duration: 4000,
       isClosable: false,
       position: "bottom-right",
+
     });
   }, []);
   return (
     <>
       <Header />
       <Navbar />
+       
       <Hero />
-      <Greeter />
-      <Footer />
+     
+      <FundBox />
     </>
   );
 }
