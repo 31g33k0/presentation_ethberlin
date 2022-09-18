@@ -13,16 +13,16 @@
 
     string public name;
     string public symbol;
-    uint public fundingEndTime;
+    uint public immutable fundingEndTime;
     address[] public receiverAddresses;
     uint public totalSupply;
     string public tokenURI;
-    address public evaluatorAddress;
+    address public immutable evaluatorAddress;
     bool public fundingOpen = true;
     bool public fundsWithdrawn = false;
     string[] public pastEvaluations;
-    uint public fundingGoal=10000;
-    uint immutable _id = 0;
+    uint public constant fundingGoal = 10000;
+    uint constant _id = 0;
 
 
 
@@ -61,8 +61,7 @@
       return fundingOpen;
     }
 
-    function receiveMoney() public onlyOwner payable {
-      payable(msg.sender).transfer(msg.value);
+    function withdraw() public onlyOwner {
       require(address(this).balance>0);
       require(fundsWithdrawn==false);
       payable(msg.sender).transfer(address(this).balance);
@@ -70,49 +69,34 @@
       fundingOpen = false;
     }
 
-    function mintBatch(address _to, uint[] memory _ids, uint[] memory _amounts) external onlyOwner {
-      _mintBatch(_to, _ids, _amounts, "");
-    }
-
-    //can i remove/disable this and still be 1155 compliant somehow? would it make sense?
-    function burn( uint _amount) external {
-      _burn(msg.sender, _id, _amount);
-    }
-
-    //can i remove/disable this and still be 1155 compliant somehow? would it make sense?
-    function burnBatch(uint[] memory _ids, uint[] memory _amounts) external {
-      _burnBatch(msg.sender, _ids, _amounts);
-    }
-    //can i remove/disable this and still be 1155 compliant somehow? would it make sense?
-    function burnForMint(address _from, uint[] memory _burnIds, uint[] memory _burnAmounts, uint[] memory _mintIds, uint[] memory _mintAmounts) external onlyOwner {
-      _burnBatch(_from, _burnIds, _burnAmounts);
-      _mintBatch(_from, _mintIds, _mintAmounts, "");
-    }
 
     //show percentual pool share of address
-    function percentageShare(address holder) public view returns (uint){
+    function percentageShare(address holder) external view returns (uint){
       require(totalSupply>0, "you barely escaped dividing by zero, GG");
-      uint holderBalance = balanceOf(holder, 0);
-      uint share = (100*holderBalance)/(totalSupply);
+      uint holderBalance = balanceOf(holder, _id);
+      //FRONTEND needs to divide 1e18
+      uint share = (100*holderBalance * 1e18)/(totalSupply);
       return share;
     }
 
     //return time till Evaluation will start if it hasn't already started(close funding)
-    function timeTillEvaluation()public view returns (uint){
+    function timeTillEvaluation() external view returns (uint){
       if (fundingEndTime > block.timestamp){
-              return fundingEndTime - block.timestamp;
-
-      }else{
-        return 0;}
+        return fundingEndTime - block.timestamp;
+      }
+      else
+      {
+        return 0;
+      }
     }
 
     //does it need to get the argument id
-    function uri() public view returns (string memory){
+    function uri() external view returns (string memory){
       return tokenURI;
     }
 
     //to-do: give back excess funds,non-reentrant modifier
-    function buycert() external payable {
+    function buyCert() external payable {
       require(msg.value > 10, "minimum funding not met, provide at least 10 gwei");
       isFundingOpen();
       require(fundingOpen == true, "Funding not open anymore");
@@ -122,10 +106,10 @@
       mint(msg.sender, msg.value);
     }
     //to-do:delete later
-    function showTime() public view returns (uint){
+    function showTime() external view returns (uint){
       return block.timestamp;
     }
-    function showBalance() public view returns (uint){
+    function showBalance() external view returns (uint){
       return address(this).balance;
     }
 
