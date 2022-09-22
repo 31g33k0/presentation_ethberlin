@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+html,
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: #030b55;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.h-shadow-black {
+  filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 5px 3px) !important;
+}
+
+.h-shadow-blue {
+  filter: drop-shadow(rgba(0, 112, 243, 0.4) 0px 5px 3px) !important;
+}
+
+
+.up-circle {
+  position: absolute;
+width: 444px;
+height: 444px;
+left: 283px;
+top: 478.79px;
+
+background: #E9C50A;
+transform: rotate(-8.39deg);
+}
+
+.down-circle {
+  position: absolute;
+width: 444px;
+height: 444px;
+left: 796.04px;
+top: 920.25px;
+
+background: #FFFFFF;
+transform: rotate(171.61deg);
+
+}
+.input{
+  width: 281px;
+height: 83px;
+left: 284px;
+top: 974px;
+color: #030b55;
+background: #FFFFFF;
+border-radius: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+}
+.title{
+  
+  width: 884px;
+  height: 239px;
+  left: 283px;
+  top: 32px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 155px;
+  
+  color: #FFD600;
+  
+}
+
+.text{
+  position: absolute;
+width: 252px;
+height: 58px;
+left: 481px;
+top: 336px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #E9C50A;
+}
+
+
+.button-white{
+  position: absolute;
+width: 401px;
+height: 88px;
+left: 1182px;
+top: 79px;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+.button-yellow{
+  position: absolute;
+width: 169px;
+height: 83px;
+left: 598px;
+top: 974px;
+
+background: #FFD600;
+border-radius: 20px;
+}
+
+.box-yellow{
+  box-sizing: border-box;
+
+
+width: 7.5rem;
+height: rem;
+left: 1334px;
+top: 494px;
+margin-top: 10px;
+background: #FFD600;
+border: 1px solid #030b55;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.diamond-yellow{
+  position: absolute;
+width: 649px;
+height: 809px;
+left: 283px;
+top: 294px;
+
+background: radial-gradient(50% 50% at 50% 50%, #FFD600 0%, rgba(243, 210, 34, 0) 100%);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 50px;
+
+}
+
+.text-diagonal{
+  position: absolute;
+width: 458px;
+height: 9.73px;
+left: 362px;
+top: 692.89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+transform: rotate(-7.89deg);
+}
