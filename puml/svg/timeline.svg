@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="369.7917px" preserveAspectRatio="none" style="width:1215px;height:369px;background:#00000000;" version="1.1" viewBox="0 0 1215 369" width="1215.625px" zoomAndPan="magnify"><defs><linearGradient id="gvfcyzidcl1cg0" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#7C9AB9"/><stop offset="100%" stop-color="#304D6D"/></linearGradient></defs><g><!--MD5=[653d16ff019c1622e2da69b2a37ce956]
+entity Donor--><g id="elem_Donor"><ellipse cx="274.3438" cy="108.5104" fill="url(#gvfcyzidcl1cg0)" rx="8.3333" ry="8.3333" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><path d="M274.3438,116.8438 L274.3438,144.9688 M260.8021,125.1771 L287.8854,125.1771 M274.3438,144.9688 L260.8021,160.5938 M274.3438,144.9688 L287.8854,160.5938 " fill="none" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="39.5833" x="254.5521" y="179.4882">Donor</text></g><!--MD5=[6e8f311b0aa23032184ffba0ef926f91]
+entity App--><g id="elem_App"><ellipse cx="456.6354" cy="108.5104" fill="url(#gvfcyzidcl1cg0)" rx="8.3333" ry="8.3333" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><path d="M456.6354,116.8438 L456.6354,144.9688 M443.0938,125.1771 L470.1771,125.1771 M456.6354,144.9688 L443.0938,160.5938 M456.6354,144.9688 L470.1771,160.5938 " fill="none" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="25" x="444.1354" y="179.4882">App</text></g><!--MD5=[87bb91355bd2c24c3af59687fd402889]
+entity Pool--><g id="elem_Pool"><ellipse cx="108.7188" cy="285.5938" fill="url(#gvfcyzidcl1cg0)" rx="8.3333" ry="8.3333" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><path d="M108.7188,293.9271 L108.7188,322.0521 M95.1771,302.2604 L122.2604,302.2604 M108.7188,322.0521 L95.1771,337.6771 M108.7188,322.0521 L122.2604,337.6771 " fill="none" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="28.125" x="94.6563" y="356.5715">Pool</text></g><!--MD5=[23cee1a63b5a81c8572b6d51f08f8507]
+entity Creator--><g id="elem_Creator"><ellipse cx="582.6771" cy="285.5938" fill="url(#gvfcyzidcl1cg0)" rx="8.3333" ry="8.3333" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><path d="M582.6771,293.9271 L582.6771,322.0521 M569.1354,302.2604 L596.2188,302.2604 M582.6771,322.0521 L569.1354,337.6771 M582.6771,322.0521 L596.2188,337.6771 " fill="none" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="48.9583" x="558.1979" y="356.5715">Creator</text></g><!--MD5=[a74c9f7ba4e347df35943d93696ec108]
+entity IPFS--><g id="elem_IPFS"><ellipse cx="696.2188" cy="108.5104" fill="url(#gvfcyzidcl1cg0)" rx="8.3333" ry="8.3333" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><path d="M696.2188,116.8438 L696.2188,144.9688 M682.6771,125.1771 L709.7604,125.1771 M696.2188,144.9688 L682.6771,160.5938 M696.2188,144.9688 L709.7604,160.5938 " fill="none" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="27.0833" x="682.6771" y="179.4882">IPFS</text></g><!--MD5=[50931bcefbe76bf129939bc87583de63]
+entity Contract--><g id="elem_Contract"><ellipse cx="784.7604" cy="108.5104" fill="url(#gvfcyzidcl1cg0)" rx="8.3333" ry="8.3333" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><path d="M784.7604,116.8438 L784.7604,144.9688 M771.2188,125.1771 L798.3021,125.1771 M784.7604,144.9688 L771.2188,160.5938 M784.7604,144.9688 L798.3021,160.5938 " fill="none" style="stroke:#304D6D;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="56.25" x="756.6354" y="179.4882">Contract</text></g><!--MD5=[84a3d6bc7ac8dddcab6ebdfb2e38781f]
+link Donor to App--><g id="link_Donor_App"><path d="M299.6979,143.4063 C335.1667,143.4063 399.1146,143.4063 433.4063,143.4063 " fill="none" id="Donor-to-App" style="stroke:#FF0000;stroke-width:3.125;"/><polygon fill="#FF0000" points="438.6458,143.4063,429.2708,139.2396,433.4375,143.4063,429.2708,147.5729,438.6458,143.4063" style="stroke:#FF0000;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="90.625" x="323.8229" y="132.0924">transfert fund</text></g><!--MD5=[73422e55c13020757ef1f0e032f6861e]
+link App to Donor--><g id="link_App_Donor"><path d="M438.9063,158.5208 C431.2604,164.0833 421.8854,169.7188 412.3646,172.5729 C393.9583,178.0938 344.4896,177.4688 325.9063,172.5729 C318.4792,170.6146 310.9896,167.3125 304.1042,163.625 " fill="none" id="App-to-Donor" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="299.4479,161.0104,305.5877,169.2296,303.9909,163.5575,309.663,161.9607,299.4479,161.0104" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="73.9583" x="332.1563" y="164.384">Display NFT</text></g><!--MD5=[b92c9ae1f493ea786f35e126110121e1]
+link App to Pool--><g id="link_App_Pool"><path d="M438.8542,151.1354 C412.6042,160.75 361.75,178.3125 317.0521,187.6771 C256.6354,200.3333 82.1354,172.8854 41.0104,218.9271 C16.6667,246.1875 56.5313,282.7396 84.6771,303.4167 " fill="none" id="App-to-Pool" style="stroke:#FFFFFF;stroke-width:3.125;"/><polygon fill="#FFFFFF" points="89.0833,306.5938,83.9353,297.7196,84.8654,303.5383,79.0467,304.4684,89.0833,306.5938" style="stroke:#FFFFFF;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="52.0833" x="47.2604" y="236.7799">allocate</text></g><!--MD5=[1befcfb01f20db7a5d7b5029cfbcdb7c]
+link Pool to App--><g id="link_Pool_App"><path d="M106.6458,276.0521 C108.0729,256.0417 113.4479,233.5417 128.5104,218.9271 C189.4688,159.7813 234.3958,207.2292 317.0521,187.6771 C358.7188,177.8229 406.1042,162.1771 433.5625,152.6563 " fill="none" id="Pool-to-App" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="438.7813,150.8333,428.5573,149.9838,433.863,152.5473,431.2996,157.853,438.7813,150.8333" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="167.7083" x="134.7604" y="236.7799">Update impact claim data</text><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="132.2917" x="332.4635" y="212.4804">funding contribution</text></g><!--MD5=[aeb93a8a0e70a295773b8f417c16b8fe]
+link Creator to App--><g id="link_Creator_App"><path d="M570.1875,276.1146 C563.5938,257.4896 554.2813,236.0938 542.0521,218.9271 C524.8021,194.6979 498.1354,173.1146 479.1875,159.5 " fill="none" id="Creator-to-App" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="474.5521,156.2083,479.8059,165.0202,478.8063,159.2131,484.6135,158.2135,474.5521,156.2083" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="343.75" x="563.9271" y="236.7799">Submit impact claim information :note: validate input</text></g><!--MD5=[ab8862701362f044a58888e299d58a4d]
+link App to Creator--><g id="link_App_Creator"><path d="M438.6146,149.1771 C394.5625,161.5938 287.5521,197.5 323.3021,244.9688 C350.375,280.9167 482.875,304.8542 547.3229,314.5625 " fill="none" id="App-to-Creator" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="552.5938,315.3438,543.9421,309.83,547.4433,314.5697,542.7036,318.0708,552.5938,315.3438" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="197.9167" x="329.5521" y="236.7799">Data valid (mint button active)</text></g><!--MD5=[aeb93a8a0e70a295773b8f417c16b8fe]
+link Creator to App--><g id="link_Creator_App"><path d="M612.4375,320.1354 C710.1563,321.5 1010.1354,317.8854 922.2604,218.9271 C883.2604,175 717.7188,197.2708 659.7604,187.6771 C593.9896,176.7917 517.2604,159.0729 479.7188,150.0833 " fill="none" id="Creator-to-App-1" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="474.4688,148.8125,482.6055,155.061,479.5319,150.0336,484.5593,146.96,474.4688,148.8125" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="113.5417" x="943.0938" y="236.7799">mint impact claim</text></g><!--MD5=[aeb93a8a0e70a295773b8f417c16b8fe]
+link Creator to App--><g id="link_Creator_App"><path d="M612.3958,318.2083 C727.7083,312.8646 1136.0521,288.8646 1071.2188,218.9271 C1040.0521,185.3021 705.1458,194.1979 659.7604,187.6771 C593.7708,178.1979 517.1354,159.8542 479.6667,150.4063 " fill="none" id="Creator-to-App-2" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="474.4271,149.0729,482.4941,155.4113,479.4764,150.3501,484.5376,147.3324,474.4271,149.0729" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="113.5417" x="1083.7188" y="236.7799">mint impact claim</text></g><!--MD5=[2f5f12a7d6bc505a0337fabc1fd23bb3]
+link Pool to Creator--><g id="link_Pool_Creator"><path d="M128.1875,320.4896 C200.4271,320.4896 453.8542,320.4896 547.5313,320.4896 " fill="none" id="Pool-to-Creator" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="552.9375,320.4896,543.5625,316.3229,547.7292,320.4896,543.5625,324.6563,552.9375,320.4896" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="187.5" x="246.7396" y="309.1757">select and fund impact claim</text></g><!--MD5=[5181d394b62ee6d91bbba16db49a31fe]
+link App to IPFS--><g id="link_App_IPFS"><path d="M474.6458,143.4063 C517.1875,143.4063 623.9375,143.4063 672.0521,143.4063 " fill="none" id="App-to-IPFS" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="677.3438,143.4063,667.9688,139.2396,672.1354,143.4063,667.9688,147.5729,677.3438,143.4063" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="154.1667" x="498.8229" y="132.0924">store impact claim data</text></g><!--MD5=[9ee4a274910643e2a4a5299728b38bc6]
+link IPFS to App--><g id="link_IPFS_App"><path d="M677.3542,152.2813 C661.2083,159.3646 637.1146,168.7188 614.9688,172.5729 C580.7604,178.5313 571.0417,178.5938 536.8438,172.5729 C516.9167,169.0625 495.4271,161 479.7083,154.2396 " fill="none" id="IPFS-to-App" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="474.6146,152,481.5335,159.575,479.3862,154.0876,484.8736,151.9404,474.6146,152" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="65.625" x="543.0938" y="164.384">return CID</text></g><!--MD5=[c53f205d0f9bbd06f612c52138a487d6]
+link App to Contract--><g id="link_App_Contract"><path d="M474.4271,128.125 C516.6354,93.8125 625.7292,16.6667 711.3229,56.4271 C729.0208,64.6458 743.9896,79.4583 755.6979,94.5625 " fill="none" id="App-to-Contract" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="758.9167,98.8229,756.6022,88.8282,755.7822,94.6634,749.9469,93.8434,758.9167,98.8229" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="28.125" x="676.9479" y="59.6965">mint</text><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="61.4583" x="696.4251" y="82.6425">empty HC</text></g><!--MD5=[99aa97db01eac2f7934217d88ae7683e]
+link Contract to App--><g id="link_Contract_App"><path d="M758.9167,98.8229 C746.7813,82.3021 730.6875,65.4167 711.3229,56.4271 C628.3958,17.9167 523.4375,89.1042 478.5729,124.7813 " fill="none" id="Contract-to-App" style="stroke:#446E9B;stroke-width:3.125;"/><polygon fill="#446E9B" points="474.4271,128.125,484.3471,125.5088,478.4897,124.8659,479.1326,119.0086,474.4271,128.125" style="stroke:#446E9B;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="12.5" lengthAdjust="spacing" textLength="56.25" x="662.8854" y="59.6965">mint NFT</text></g><!--MD5=[5045d5f5ad74d14f9bc607b0d706511f]
+@startuml "timeline"
+
+'participant IPFS
+!include config.puml
+
+actor Donor
+!theme spacelab
+
+
+
+Donor -[#red]> App : transfert fund
+App -[#dotted]-> Pool: allocate
+'Pool -> App : validate deposit
+Creator -> App:Submit impact claim information :note: validate input
+App -> Creator : Data valid (mint button active)
+Creator -> App :mint impact claim
+
+
+Pool -> Creator : select and fund impact claim
+Pool -> App:Update impact claim data "funding contribution"
+App -> IPFS : store impact claim data
+IPFS -> App : return CID
+
+Creator -> App: mint impact claim
+App -> Contract : mint "empty HC"
+'Creator -> Pool : return funded adress
+'App -> Creator : Creates Certificate
+'App -> IPFS
+'IPFS -> Contract
+Contract -> App :mint NFT
+App -> Donor : Display NFT
+@enduml
+
+@startuml "timeline"
+
+
+actor Donor
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor transparent
+    FontColor #ffffff
+    HyperLinkColor #fd7e14
+    LineColor #304d6d
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  node {
+   Padding 15
+   roundcorner 20
+   BackgroundColor #446e9b-#304d6d
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #999999
+    FontColor #3399f3
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  referenceHeader {
+    BackgroundColor transparent
+    FontColor #333333
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #ffffff
+    FontColor transparent
+    FontStyle bold
+  }
+  title {
+	FontSize 20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor  #b8b8b8-#999999
+	FontColor #446e9b
+	BorderColor #999999
+  }
+  nwdiagDiagram {
+	network {
+			FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d    
+		LineColor #446e9b
+		LineThickness 1.0
+		FontColor #304d6d
+	}
+	server {
+			FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	}
+	arrow {
+		FontColor #304d6d
+		LineColor #304d6d
+	}
+	group {
+		BackGroundColor #eeeeee
+		LineColor #a7a7a7
+		LineThickness 2.0
+		Margin 5
+		Padding 5
+	}
+  }
+  ganttDiagram {
+	task {
+			FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+		LineColor #446e9b
+		Margin 10
+		Padding 6
+	}
+	note {
+		FontColor #ffffff
+		LineColor #246baa
+		BackGroundColor #3399f3
+	}
+	separator {
+		LineColor #999999
+		BackGroundColor #999999-#6b6b6b
+		FontColor #ffffff
+	}
+	milestone {
+		FontColor #3399f3
+		FontSize 16
+		FontStyle italic
+		BackGroundColor #999999
+		LineColor #6b6b6b
+	}
+	timeline {
+		BackgroundColor #999999
+		FontColor #ffffff
+	}
+	closed {
+		BackgroundColor #945200
+		FontColor #ffffff
+	}
+  }
+</style>
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #333333
+skinparam stereotype {
+    CBackgroundColor #b8b8b8
+    CBorderColor #6b6b6b
+    ABackgroundColor #4cbc5c
+    ABorderColor #32a243
+    IBackgroundColor #dc4e4d
+    IBorderColor #900100
+    EBackgroundColor #e19e4d
+    EBorderColor #945200
+    NBackgroundColor #70b8f7
+    NBorderColor #246baa
+}
+skinparam title {
+	FontColor	                 #304d6d
+	BorderColor	                 #6b6b6b
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              #b8b8b8-#999999
+}
+
+skinparam legend {
+	BackgroundColor #999999
+	BorderColor #6b6b6b
+	FontColor #eeeeee
+}
+
+skinparam swimlane {
+	BorderColor #3399f3
+	BorderThickness 2
+	TitleBackgroundColor  #b8b8b8-#999999
+	TitleFontColor #304d6d
+}
+
+
+skinparam activity {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	BarColor #3cb521
+	StartColor #3399f3
+	EndColor #3399f3
+	DiamondBackgroundColor #b8b8b8-#6b6b6b
+  	DiamondBorderColor #6b6b6b
+  	DiamondFontColor #ffffff
+}
+
+
+skinparam participant {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #446e9b
+	FontColor #ffffff
+}
+
+
+skinparam sequence {
+	BorderColor #446e9b
+	TitleFontColor #446e9b
+	BackgroundColor transparent
+	StartColor #446e9b
+	EndColor #446e9b
+	BoxBackgroundColor transparent
+	BoxBorderColor #333333
+	BoxFontColor #333333
+	DelayFontColor #333333
+	LifeLineBorderColor #999999
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #6b6b6b-#6b6b6b
+	GroupBorderColor #333333
+	GroupFontColor #333333
+	GroupHeaderFontColor #3399f3
+	GroupBackgroundColor #6b6b6b-#6b6b6b
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor #707070-#242424
+    DividerBorderColor #333333
+    DividerBorderThickness 2
+    DividerFontColor #eeeeee
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #333333
+	ReferenceFontColor #333333
+	ReferenceHeaderFontColor #3399f3
+	ReferenceHeaderBackgroundColor #6b6b6b-#6b6b6b
+	StereotypeFontColor #ffffff
+}
+
+
+skinparam partition {
+	BorderColor #446e9b
+	FontColor #446e9b
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam control {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam entity {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam boundary {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam agent {
+	BackgroundColor #d47500
+	BorderColor #e19e4d
+	FontColor #333333
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #70b8f7-#246baa
+	BorderColor #246baa
+	FontColor #ffffff
+}
+
+
+skinparam artifact {
+	BackgroundColor #333333
+	BorderColor #242424
+	FontColor #eeeeee
+}
+
+
+skinparam component {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam interface {
+	BackgroundColor  #900100
+	BorderColor  #cd0200
+	FontColor #333333
+}
+
+
+skinparam storage {
+	BackgroundColor #d47500
+  	BorderColor #945200
+	FontColor #ffffff
+}
+
+
+skinparam node {
+	BackgroundColor  #999999
+	BorderColor #eeeeee
+	FontColor #eeeeee
+}
+
+
+skinparam cloud {
+	BackgroundColor #F2FCFE-#eeeeee
+	BorderColor #F2FCFE
+	FontColor #333333
+}
+
+
+skinparam database {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam class {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	FontColor #ffffff
+	HeaderBackgroundColor #7c9ab9-#446e9b
+	StereotypeFontColor #eeeeee
+	BorderThickness 1
+	AttributeFontColor #eeeeee
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	StereotypeFontColor #333333
+	BorderThickness 1
+	AttributeFontColor #ffffff
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	BorderThickness 2
+	StereotypeFontColor #446e9b
+}
+
+
+skinparam rectangle {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	BackgroundColor #b8b8b8-#6b6b6b
+	BorderThickness 2
+	StereotypeFontColor #446e9b
+}
+
+
+skinparam package {
+	BackgroundColor #b8b8b8-#6b6b6b
+  	BorderColor #446e9b
+	FontColor #446e9b
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #b8b8b8-#6b6b6b
+  	BorderColor #d47500
+	FontColor #d47500
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #b8b8b8-#6b6b6b
+  	BorderColor #3399f3
+	FontColor #3399f3
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+	StartColor #3399f3
+	EndColor #3399f3
+	AttributeFontColor #ffffff
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+skinparam card {
+	BackgroundColor #70b8f7-#246baa
+	BorderColor #246baa
+	FontColor #ffffff
+}
+
+
+skinparam file {
+	BackgroundColor #6b6b6b-#6b6b6b
+	BorderColor #eeeeee
+	FontColor #eeeeee
+}
+
+
+skinparam stack {
+		FontColor #ffffff
+	BorderColor #304d6d
+	BackgroundColor #7c9ab9-#304d6d
+}
+
+
+
+Donor -[#red]> App : transfert fund
+App -[#dotted]-> Pool: allocate
+Creator -> App:Submit impact claim information :note: validate input
+App -> Creator : Data valid (mint button active)
+Creator -> App :mint impact claim
+
+
+Pool -> Creator : select and fund impact claim
+Pool -> App:Update impact claim data "funding contribution"
+App -> IPFS : store impact claim data
+IPFS -> App : return CID
+
+Creator -> App: mint impact claim
+App -> Contract : mint "empty HC"
+Contract -> App :mint NFT
+App -> Donor : Display NFT
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 15:29:17 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>
